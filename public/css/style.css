@@ -49,6 +49,11 @@ nav a:hover {
   }
   h1 {
     font-size: 4.5em;
+    color: violet;
+  }
+  li{
+    font-size: 4.5em;
+    color: violet;
   }
   
 }
