@@ -1,6 +1,6 @@
 
 
-
+/*
 
 .testing-home {
     background-color: hsl(133, 58%, 39%);
@@ -11,6 +11,45 @@
     cursor: pointer;
     margin-right: 10px;
 }
+
+
+*/
+
+/* ...existing code... */
+
+main {
+  padding: 16px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.testing-home,
+.btn-primary {
+  width: 100%;
+  margin: 8px 0;
+  font-size: 1.1em;
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 8px;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+  .testing-home,
+  .btn-primary {
+    font-size: 1em;
+    padding: 12px;
+  }
+}
+
+/* ...existing code... */
 
 
 
