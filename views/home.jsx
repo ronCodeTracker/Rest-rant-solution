@@ -4,6 +4,13 @@ const Def = require('./default')
 function home () {
     return (
         <Def>
+           <head>
+
+            <link rel="stylesheet" href="/css/style2.css" />
+
+           </head>
+
+
             <main>
     <h1>HOME</h1>
     <div >
@@ -13,7 +20,7 @@ function home () {
       </div>
     </div>
     <a href="/places">
-        <button className="btn-primary">Places Page</button>
+        <button class="testing-home"></button><button className="btn-primary">Places Page</button>
     </a>
 </main>
         </Def>
