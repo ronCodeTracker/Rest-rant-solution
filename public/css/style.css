@@ -38,3 +38,18 @@ nav a:hover {
     color: pink;
     text-decoration: none;
 }
+
+
+
+@media (max-width: 600px) {
+  main {
+    padding: 8px;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+  
+}
+
+
+
