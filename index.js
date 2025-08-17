@@ -24,6 +24,13 @@ app.get('/', (req, res) => {
 app.get('*', (req, res) => {
     res.render('error404')
 })
+PORT = process.env.PORT || 8080
+
+
 
 // Listen for Connections
-app.listen(process.env.PORT)
+app.listen(PORT, () => {console.log(`Listening on port ${PORT}`) })
+
+
+
+
