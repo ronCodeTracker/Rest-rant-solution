@@ -19,6 +19,7 @@ main {
 nav {
     background-color: cornflowerblue;
     padding: 10px;
+    padding-bottom: 100px;
 }
 
 nav ul {
@@ -49,7 +50,7 @@ nav a:hover {
   }
   
   li{
-    font-size: 1.5em;
+    font-size: 2.5em;
     color: violet;
   }
   
