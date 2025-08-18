@@ -35,7 +35,7 @@ img {
   font-size: 1.1em;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   main {
     padding: 8px;
   }

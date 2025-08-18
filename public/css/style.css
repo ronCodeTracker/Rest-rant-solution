@@ -44,13 +44,13 @@ nav a:hover {
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   main {
     padding: 8px;
   }
   
   li{
-    font-size: 4.5em;
+    font-size: 3.5em;
     color: violet;
   }
   
